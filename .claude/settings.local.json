@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app:*)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(\"/Users/Eni/Documents/new project/app/layout.tsx\":*)",
+      "Bash(\"/Users/Eni/Documents/new project/next.config.ts\":*)"
+    ]
+  }
+}

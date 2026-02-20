@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "services": "Leistungen",
+    "portfolio": "Portfolio",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "cta": "Projekt starten"
+  },
+  "hero": {
+    "badge": "Verfuegbar fuer neue Projekte",
+    "title": "Wir erstellen moderne Webseiten & Web-Apps",
+    "subtitle": "Professionelle digitale Loesungen fuer Ihr Unternehmen. Von Design bis Entwicklung — wir haben alles.",
+    "cta_primary": "Leistungen ansehen",
+    "cta_secondary": "Portfolio ansehen"
+  },
+  "services": {
+    "badge": "Was wir anbieten",
+    "title": "Unsere Leistungen",
+    "subtitle": "Wir bieten vollstaendige digitale Loesungen fuer jeden Geschaeftsbedarf.",
+    "items": [
+      {
+        "title": "Web Creator",
+        "description": "Design und Entwicklung moderner, responsiver und schneller Webseiten. Perfekt fuer Unternehmen und Fachleute."
+      },
+      {
+        "title": "Web App Creator",
+        "description": "Full-Stack Webanwendungen. Dashboards, Portale, Verwaltungssysteme und mehr."
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Schoene und intuitive Oberflaechen, die Benutzer ansprechen und Konversionen erhoehen."
+      },
+      {
+        "title": "E-Commerce",
+        "description": "Vollstaendige Online-Shops mit Zahlungssystemen, Produktverwaltung und Verkaufsanalysen."
+      },
+      {
+        "title": "SEO & Performance",
+        "description": "Suchmaschinenoptimierung und maximale Geschwindigkeit, um mehr Besucher anzuziehen."
+      },
+      {
+        "title": "Wartung",
+        "description": "Technischer Support und laufende Wartung, um Ihre Webseite in ausgezeichnetem Zustand zu halten."
+      }
+    ]
+  },
+  "portfolio": {
+    "badge": "Unsere Arbeiten",
+    "title": "Portfolio",
+    "subtitle": "Einige der neuesten Projekte, die wir fuer unsere Kunden realisiert haben.",
+    "view": "Projekt ansehen",
+    "items": [
+      {
+        "title": "ShopEasy",
+        "category": "E-Commerce",
+        "description": "Online-Shop mit ueber 500 Produkten, Zahlungssystem und Admin-Panel."
+      },
+      {
+        "title": "TaskFlow",
+        "category": "Web App",
+        "description": "Aufgabenverwaltungsanwendung fuer Teams mit Echtzeit-Zusammenarbeit."
+      },
+      {
+        "title": "Studio Archi",
+        "category": "Website",
+        "description": "Portfolio-Webseite fuer ein Architekturburo mit Projektgalerie."
+      },
+      {
+        "title": "MedBook",
+        "category": "Web App",
+        "description": "Terminbuchungssystem fuer medizinische Kliniken mit integriertem Kalender."
+      },
+      {
+        "title": "FoodZone",
+        "category": "E-Commerce",
+        "description": "Online-Lebensmittelplattform mit Bestellsystem und Echtzeit-Statusverfolgung."
+      },
+      {
+        "title": "EduLearn",
+        "category": "Web App",
+        "description": "E-Learning-Plattform mit Video-Kursen, Quiz und digitalen Zertifikaten."
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "Preise",
+    "title": "Massgeschneiderte Pakete",
+    "subtitle": "Waehlen Sie das Paket, das am besten zu Ihren Beduerfnissen und Ihrem Budget passt.",
+    "popular": "Am beliebtesten",
+    "cta": "Jetzt starten",
+    "contact_cta": "Kontaktieren Sie uns",
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "299",
+        "description": "Perfekt fuer kleine Unternehmen und erste Online-Praesenz.",
+        "features": [
+          "Webseite bis zu 5 Seiten",
+          "Responsives Design (mobil)",
+          "Kontaktformular",
+          "Basis-SEO",
+          "1 Jahr kostenloses Hosting",
+          "3 Monate Support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "699",
+        "description": "Ideal fuer wachsende Unternehmen, die mehr Funktionalitaet benoetigen.",
+        "features": [
+          "Webseite bis zu 15 Seiten",
+          "Benutzerdefiniertes UI/UX Design",
+          "CMS zur Selbstverwaltung",
+          "Erweitertes SEO",
+          "Social-Media-Integration",
+          "Blog / Neuigkeiten",
+          "Analytics Dashboard",
+          "6 Monate Support"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "1499",
+        "description": "Fuer Unternehmen, die eine vollstaendige und professionelle Loesung benoetigen.",
+        "features": [
+          "Webseite oder Web App",
+          "Vollstaendig benutzerdefiniertes Design",
+          "E-Commerce (Online-Shop)",
+          "Integriertes Zahlungssystem",
+          "Volles SEO + Performance",
+          "Monatliche Analyseberichte",
+          "Externe API-Integrationen",
+          "12 Monate Support",
+          "Prioritaetskommunikation"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Kunden",
+    "title": "Was Kunden sagen",
+    "subtitle": "Kundenzufriedenheit ist unsere oberste Prioritaet.",
+    "items": [
+      {
+        "name": "Arta Kelmendi",
+        "role": "CEO, BoutiqueAL",
+        "text": "Unsere neue Shop-Webseite hat den Umsatz innerhalb von 3 Monaten um 40% gesteigert. Ausgezeichnete Arbeit, wunderbare Kommunikation und aussergewoehnliche Ergebnisse!"
+      },
+      {
+        "name": "Blerim Hoxha",
+        "role": "Gruender, TechStart",
+        "text": "Die von ihnen erstellte Anwendung ist sehr stabil und schnell. Das Team verstand unsere Vision genau und setzte sie perfekt um."
+      },
+      {
+        "name": "Vjosa Berisha",
+        "role": "Direktorin, Studio VB",
+        "text": "Das Design ist fantastisch! Meine Kunden loben mich staendig fuer die Webseite. Ich wuerde sie jedem empfehlen, der Qualitaet sucht."
+      },
+      {
+        "name": "Driton Ahmeti",
+        "role": "Inhaber, DriFoods",
+        "text": "Von der Idee bis zum Launch nur 3 Wochen! Professionelle Arbeit, vernuenftige Preise und hervorragendes Ergebnis. Vielen Dank!"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Kontaktieren Sie uns",
+    "title": "Starten Sie Ihr Projekt",
+    "subtitle": "Haben Sie eine Idee? Lassen Sie uns reden! Wir antworten innerhalb von 24 Stunden.",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail",
+    "subject": "Projekttyp",
+    "message": "Erzhlen Sie uns von Ihrem Projekt...",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht gesendet! Wir werden Sie bald kontaktieren.",
+    "whatsapp": "Schreiben Sie uns auf WhatsApp",
+    "subjects": [
+      "Website",
+      "Web App",
+      "E-Commerce",
+      "UI/UX Design",
+      "SEO",
+      "Sonstiges"
+    ],
+    "info": {
+      "email": "hello@webstudio.al",
+      "phone": "+355 69 123 4567",
+      "location": "Tirana, Albanien"
+    }
+  },
+  "footer": {
+    "description": "Wir schaffen digitale Erlebnisse, die inspirieren und Besucher in Kunden verwandeln.",
+    "links_title": "Schnelllinks",
+    "services_title": "Leistungen",
+    "contact_title": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "made_with": "Erstellt mit"
+  }
+}

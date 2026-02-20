@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "services": "Sherbimet",
+    "portfolio": "Portfolio",
+    "pricing": "Cmimet",
+    "contact": "Kontakt",
+    "cta": "Fillo Projektin"
+  },
+  "hero": {
+    "badge": "Disponueshem per Projekte te Reja",
+    "title": "Krijojme Faqe Web & Aplikacione Moderne",
+    "subtitle": "Zgjidhje dixhitale profesionale per biznesin tuaj. Nga dizajni deri tek zhvillimi — ne kemi gjithcka.",
+    "cta_primary": "Shiko Sherbimet",
+    "cta_secondary": "Shiko Portfolio"
+  },
+  "services": {
+    "badge": "Cfare Ofrojme",
+    "title": "Sherbimet Tona",
+    "subtitle": "Ofrojme zgjidhje te plota dixhitale per cdo nevoje te biznesit tuaj.",
+    "items": [
+      {
+        "title": "Web Creator",
+        "description": "Dizajn dhe zhvillim faqesh web moderne, responsive dhe shpejte. Perfekte per biznese dhe profesioniste."
+      },
+      {
+        "title": "Web App Creator",
+        "description": "Aplikacione web me funksionalitet te plote (full-stack). Dashboard, portale, sisteme menaxhimi dhe me shume."
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Nderfaqe te bukura dhe intuitive qe terhejne perdoruesit dhe rrisin konvertimet."
+      },
+      {
+        "title": "E-Commerce",
+        "description": "Dyqane online te plota me sisteme pagese, menaxhim produktesh dhe analitike shitjesh."
+      },
+      {
+        "title": "SEO & Performance",
+        "description": "Optimizim per motoret e kerkimit dhe shpejtesi maksimale per te terhequr me shume vizitore."
+      },
+      {
+        "title": "Mirembajtje",
+        "description": "Mbeshtetje teknike dhe mirembajtje e vazhdueshme per te mbajtur faqen tuaj ne gjendje te shkellqyer."
+      }
+    ]
+  },
+  "portfolio": {
+    "badge": "Punimet Tona",
+    "title": "Portfolio",
+    "subtitle": "Disa nga projektet me te fundit qe kemi realizuar per klientet tane.",
+    "view": "Shiko Projektin",
+    "items": [
+      {
+        "title": "ShopEasy",
+        "category": "E-Commerce",
+        "description": "Dyqan online me over 500 produkte, sistem pagese dhe panel admin."
+      },
+      {
+        "title": "TaskFlow",
+        "category": "Web App",
+        "description": "Aplikacion menaxhimi detyrash per ekipe, me bashkepunim ne kohe reale."
+      },
+      {
+        "title": "Studio Archi",
+        "category": "Website",
+        "description": "Faqe portofoli per nje studio arkitekture me galeri projektesh."
+      },
+      {
+        "title": "MedBook",
+        "category": "Web App",
+        "description": "Sistem rezervimi takimesh per klinika mjekesore me kalendar te integruar."
+      },
+      {
+        "title": "FoodZone",
+        "category": "E-Commerce",
+        "description": "Platform ushqimi online me sistem porosie dhe gjurmim gjendjeje ne kohe reale."
+      },
+      {
+        "title": "EduLearn",
+        "category": "Web App",
+        "description": "Platform e-learning me kurse video, kuize dhe certifikata dixhitale."
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "Cmimet",
+    "title": "Paketa te Pershtatura",
+    "subtitle": "Zgjidhni paketen qe i pershtatet me mire nevojave dhe buxhetit tuaj.",
+    "popular": "Me Popullorja",
+    "cta": "Fillo Tani",
+    "contact_cta": "Na Kontaktoni",
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "299",
+        "description": "Perfekte per biznese te vogla dhe prezence online fillestare.",
+        "features": [
+          "Faqe web deri ne 5 faqe",
+          "Dizajn responsive (mobile)",
+          "Formular kontakti",
+          "SEO bazik",
+          "Hosting 1 vit falas",
+          "Mbeshtetje 3 muaj"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "699",
+        "description": "Ideal per biznese ne rritje qe kerkojne me shume funksionalitet.",
+        "features": [
+          "Faqe web deri ne 15 faqe",
+          "Dizajn custom UI/UX",
+          "CMS per menaxhim vete",
+          "SEO i avancuar",
+          "Integrim rrjete sociale",
+          "Blog / Lajme",
+          "Analytics dashboard",
+          "Mbeshtetje 6 muaj"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "1499",
+        "description": "Per biznese qe kerkojne nje zgjidhje te plote dhe profesionale.",
+        "features": [
+          "Faqe web ose Web App",
+          "Dizajn plotesisht custom",
+          "E-Commerce (dyqan online)",
+          "Sistem pagese i integruar",
+          "SEO i plote + performance",
+          "Raporte analitike mujore",
+          "Integrим API te jashtme",
+          "Mbeshtetje 12 muaj",
+          "Prioritet ne komunikim"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Klientet",
+    "title": "Cfare Thone Klientet",
+    "subtitle": "Kenaqesia e klienteve eshte prioriteti yne kryesor.",
+    "items": [
+      {
+        "name": "Arta Kelmendi",
+        "role": "CEO, BoutiqueAL",
+        "text": "Faqja e re e dyqanit tone ka rritur shitjet me 40% brenda 3 muajve. Puna e shkellqyer, komunikim i mrekulluesshem dhe rezultate te jashtezakonshme!"
+      },
+      {
+        "name": "Blerim Hoxha",
+        "role": "Themelues, TechStart",
+        "text": "Aplikacioni qe na ndertuan eshte shume i qendruesshem dhe i shpejte. Ekipi kuptoi me saktesi vizionin tone dhe e realizoi ne menyre perfekte."
+      },
+      {
+        "name": "Vjosa Berisha",
+        "role": "Drejtuese, Studio VB",
+        "text": "Dizajni eshte i mrekulluesshem! Klientet e mi vazhdimisht me komplimentojne per faqen. Do t'i rekomandonja secilit qe kerkon cilesi."
+      },
+      {
+        "name": "Driton Ahmeti",
+        "role": "Pronar, DriFoods",
+        "text": "Nga ideja deri tek lansimi vetem 3 jave! Puna profesionale, cmime te arsyeshme dhe rezultat i shkellqyer. Faleminderit shume!"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Na Kontaktoni",
+    "title": "Filloni Projektin Tuaj",
+    "subtitle": "Keni nje ide? Le te flasim! Ju pergjigjemi brenda 24 oreve.",
+    "name": "Emri juaj",
+    "email": "Email-i juaj",
+    "subject": "Lloji i projektit",
+    "message": "Tregoni per projektin tuaj...",
+    "send": "Dergo Mesazhin",
+    "sending": "Duke derguar...",
+    "success": "Mesazhi u dergua! Do t'ju kontaktojme se shpejti.",
+    "whatsapp": "Na shkruani ne WhatsApp",
+    "subjects": [
+      "Website",
+      "Web App",
+      "E-Commerce",
+      "UI/UX Design",
+      "SEO",
+      "Tjeter"
+    ],
+    "info": {
+      "email": "hello@webstudio.al",
+      "phone": "+355 69 123 4567",
+      "location": "Tirane, Shqiperi"
+    }
+  },
+  "footer": {
+    "description": "Krijojme eksperienca dixhitale qe frymezojne dhe kthejne vizitore ne klientet.",
+    "links_title": "Linke te Shpejta",
+    "services_title": "Sherbimet",
+    "contact_title": "Kontakt",
+    "rights": "Te gjitha te drejtat e rezervuara.",
+    "made_with": "Ndertuar me"
+  }
+}

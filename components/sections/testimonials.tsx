@@ -12,7 +12,7 @@ export function Testimonials() {
   }[]
 
   return (
-    <section className="py-24 px-6 bg-black">
+    <section className="py-24 px-6 bg-black/85">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -32,7 +32,7 @@ export function Testimonials() {
           {items.map((item, i) => (
             <div
               key={i}
-              className="p-7 rounded-2xl border border-white/10 bg-white/5 hover:border-white/20 transition-all"
+              className="p-7 rounded-2xl border border-white/10 bg-zinc-900 hover:border-white/20 transition-all"
             >
               <div className="flex gap-1 mb-4">
                 {Array.from({ length: 5 }).map((_, j) => (

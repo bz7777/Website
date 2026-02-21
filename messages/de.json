@@ -41,6 +41,10 @@
       {
         "title": "Wartung",
         "description": "Technischer Support und laufende Wartung, um Ihre Webseite in ausgezeichnetem Zustand zu halten."
+      },
+      {
+        "title": "AI Agents",
+        "description": "Intelligente KI-gesteuerte Agenten, die Ihre Geschaeftsprozesse automatisieren — Chatbots, virtuelle Assistenten und Integrationen mit fortschrittlichen Sprachmodellen."
       }
     ]
   },
@@ -92,7 +96,7 @@
     "plans": [
       {
         "name": "Basic",
-        "price": "299",
+        "price": "499",
         "description": "Perfekt fuer kleine Unternehmen und erste Online-Praesenz.",
         "features": [
           "Webseite bis zu 5 Seiten",
@@ -105,7 +109,7 @@
       },
       {
         "name": "Pro",
-        "price": "699",
+        "price": "999",
         "description": "Ideal fuer wachsende Unternehmen, die mehr Funktionalitaet benoetigen.",
         "features": [
           "Webseite bis zu 15 Seiten",

@@ -41,6 +41,10 @@
       {
         "title": "Mirembajtje",
         "description": "Mbeshtetje teknike dhe mirembajtje e vazhdueshme per te mbajtur faqen tuaj ne gjendje te shkellqyer."
+      },
+      {
+        "title": "AI Agents",
+        "description": "Agente inteligjente me AI qe automatizojne proceset e biznesit tuaj — chatbot, asistente virtuale dhe integrime me modele gjuhesore te avancuara."
       }
     ]
   },
@@ -92,7 +96,7 @@
     "plans": [
       {
         "name": "Basic",
-        "price": "299",
+        "price": "499",
         "description": "Perfekte per biznese te vogla dhe prezence online fillestare.",
         "features": [
           "Faqe web deri ne 5 faqe",
@@ -105,7 +109,7 @@
       },
       {
         "name": "Pro",
-        "price": "699",
+        "price": "999",
         "description": "Ideal per biznese ne rritje qe kerkojne me shume funksionalitet.",
         "features": [
           "Faqe web deri ne 15 faqe",

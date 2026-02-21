@@ -22,7 +22,7 @@ export function Portfolio() {
   }[]
 
   return (
-    <section id="portfolio" className="py-24 px-6 bg-black">
+    <section id="portfolio" className="py-24 px-6 bg-transparent">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">

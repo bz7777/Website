@@ -14,11 +14,11 @@ export default async function Home() {
 
   return (
     <main>
+      <WebGLShader />
       <Navbar />
 
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center px-6">
-        <WebGLShader />
         <div className="relative z-10 text-center max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 mb-6">
             <span className="relative flex h-2.5 w-2.5">

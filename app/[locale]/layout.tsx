@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { ChatWidget } from "@/components/ui/chat-widget";
 import "../globals.css";
 
 const geist = Geist({
@@ -29,6 +30,7 @@ export default async function LocaleLayout({
       <body className={`${geist.variable} antialiased bg-black text-white`}>
         <NextIntlClientProvider messages={messages}>
           {children}
+          <ChatWidget />
         </NextIntlClientProvider>
       </body>
     </html>

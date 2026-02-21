@@ -41,6 +41,10 @@
       {
         "title": "Maintenance",
         "description": "Technical support and ongoing maintenance to keep your website in excellent condition."
+      },
+      {
+        "title": "AI Agents",
+        "description": "Intelligent AI-powered agents that automate your business processes — chatbots, virtual assistants, and integrations with advanced language models."
       }
     ]
   },
@@ -92,7 +96,7 @@
     "plans": [
       {
         "name": "Basic",
-        "price": "299",
+        "price": "499",
         "description": "Perfect for small businesses and initial online presence.",
         "features": [
           "Website up to 5 pages",
@@ -105,7 +109,7 @@
       },
       {
         "name": "Pro",
-        "price": "699",
+        "price": "999",
         "description": "Ideal for growing businesses that need more functionality.",
         "features": [
           "Website up to 15 pages",

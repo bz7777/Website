@@ -14,7 +14,7 @@ export function Pricing() {
   }[]
 
   return (
-    <section id="pricing" className="py-24 px-6 bg-zinc-950">
+    <section id="pricing" className="py-24 px-6 bg-black/85">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -39,8 +39,8 @@ export function Pricing() {
                 className={cn(
                   "relative rounded-2xl p-7 border transition-all",
                   isPro
-                    ? "border-violet-500 bg-violet-950/40 scale-105"
-                    : "border-white/10 bg-white/5"
+                    ? "border-violet-500 bg-violet-950 scale-105"
+                    : "border-white/10 bg-zinc-900"
                 )}
               >
                 {isPro && (

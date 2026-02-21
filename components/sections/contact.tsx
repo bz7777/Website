@@ -25,7 +25,7 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="py-24 px-6 bg-zinc-950">
+    <section id="contact" className="py-24 px-6 bg-black/85">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -43,7 +43,7 @@ export function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
           {/* Info */}
           <div className="lg:col-span-2 flex flex-col gap-6">
-            <div className="flex items-start gap-4 p-5 rounded-xl border border-white/10 bg-white/5">
+            <div className="flex items-start gap-4 p-5 rounded-xl border border-white/10 bg-zinc-900">
               <div className="w-10 h-10 rounded-lg bg-violet-600/20 flex items-center justify-center shrink-0">
                 <Mail size={18} className="text-violet-400" />
               </div>
@@ -52,7 +52,7 @@ export function Contact() {
                 <div className="text-white text-sm">{info.email}</div>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-5 rounded-xl border border-white/10 bg-white/5">
+            <div className="flex items-start gap-4 p-5 rounded-xl border border-white/10 bg-zinc-900">
               <div className="w-10 h-10 rounded-lg bg-violet-600/20 flex items-center justify-center shrink-0">
                 <Phone size={18} className="text-violet-400" />
               </div>
@@ -61,7 +61,7 @@ export function Contact() {
                 <div className="text-white text-sm">{info.phone}</div>
               </div>
             </div>
-            <div className="flex items-start gap-4 p-5 rounded-xl border border-white/10 bg-white/5">
+            <div className="flex items-start gap-4 p-5 rounded-xl border border-white/10 bg-zinc-900">
               <div className="w-10 h-10 rounded-lg bg-violet-600/20 flex items-center justify-center shrink-0">
                 <MapPin size={18} className="text-violet-400" />
               </div>
@@ -105,7 +105,7 @@ export function Contact() {
                       value={form.name}
                       onChange={(e) => setForm({ ...form, name: e.target.value })}
                       required
-                      className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-violet-500 transition-colors"
+                      className="w-full bg-zinc-900 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-violet-500 transition-colors"
                     />
                   </div>
                   <div>
@@ -115,7 +115,7 @@ export function Contact() {
                       value={form.email}
                       onChange={(e) => setForm({ ...form, email: e.target.value })}
                       required
-                      className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-violet-500 transition-colors"
+                      className="w-full bg-zinc-900 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-violet-500 transition-colors"
                     />
                   </div>
                 </div>
@@ -123,7 +123,7 @@ export function Contact() {
                   value={form.subject}
                   onChange={(e) => setForm({ ...form, subject: e.target.value })}
                   required
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white/70 text-sm focus:outline-none focus:border-violet-500 transition-colors appearance-none"
+                  className="w-full bg-zinc-900 border border-white/10 rounded-xl px-4 py-3 text-white/70 text-sm focus:outline-none focus:border-violet-500 transition-colors appearance-none"
                 >
                   <option value="" disabled>{t("subject")}</option>
                   {subjects.map((s) => (
@@ -138,7 +138,7 @@ export function Contact() {
                   onChange={(e) => setForm({ ...form, message: e.target.value })}
                   required
                   rows={5}
-                  className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-violet-500 transition-colors resize-none"
+                  className="w-full bg-zinc-900 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 text-sm focus:outline-none focus:border-violet-500 transition-colors resize-none"
                 />
                 <button
                   type="submit"

@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { Heart } from "lucide-react"
 
@@ -13,8 +14,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="text-white font-bold text-xl tracking-tight mb-3">
-              Web<span className="text-violet-400">Studio</span>
+            <div className="mb-3">
+              <Image src="/logo.svg" alt="Bezati" width={180} height={45} />
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
               {t("description")}
@@ -46,8 +47,8 @@ export function Footer() {
               {t("contact_title")}
             </div>
             <ul className="space-y-2.5 text-sm text-white/40">
-              <li>hello@webstudio.al</li>
-              <li>+355 69 123 4567</li>
+              <li>info@bezati.tech</li>
+              <li>01622 123831</li>
               <li>Tirane, Shqiperi</li>
             </ul>
           </div>
@@ -55,7 +56,7 @@ export function Footer() {
 
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-white/30 text-xs">
-            © {new Date().getFullYear()} WebStudio. {t("rights")}
+            © {new Date().getFullYear()} Bezati. {t("rights")}
           </p>
           <p className="text-white/30 text-xs flex items-center gap-1.5">
             {t("made_with")} <Heart size={12} className="text-violet-400 fill-violet-400" /> Next.js

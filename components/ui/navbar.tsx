@@ -45,7 +45,7 @@ export function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href={`/${locale}`} className="flex items-center">
-          <Image src="/logo.svg" alt="Bezati" width={200} height={50} priority />
+          <Image src="/logo.svg" alt="Bezati" width={220} height={55} priority />
         </Link>
 
         {/* Desktop nav */}

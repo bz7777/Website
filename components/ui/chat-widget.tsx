@@ -1,6 +1,7 @@
 "use client";
 
 import { useChat } from "@ai-sdk/react";
+import { DefaultChatTransport } from "ai";
 import { useLocale } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import { MessageCircle, X, Send, Bot, Loader2 } from "lucide-react";
@@ -41,8 +42,7 @@ export function ChatWidget() {
   const labels = LABELS[locale] ?? LABELS.sq;
 
   const { messages, sendMessage, status } = useChat({
-    api: "/api/chat",
-    body: { locale },
+    transport: new DefaultChatTransport({ api: "/api/chat" }),
   });
 
   const isLoading = status === "streaming" || status === "submitted";
@@ -54,7 +54,7 @@ export function ChatWidget() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!input.trim() || isLoading) return;
-    sendMessage({ text: input });
+    sendMessage({ text: input }, { body: { locale } });
     setInput("");
   }
 

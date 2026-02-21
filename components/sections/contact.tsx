@@ -20,8 +20,18 @@ export function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setStatus("sending")
-    await new Promise((r) => setTimeout(r, 1500))
-    setStatus("sent")
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      })
+      if (!res.ok) throw new Error("Failed")
+      setStatus("sent")
+    } catch {
+      setStatus("idle")
+      alert("Ndodhi nje gabim. Provoni perseri.")
+    }
   }
 
   return (
@@ -72,7 +82,7 @@ export function Contact() {
             </div>
 
             <a
-              href={`https://wa.me/35569123456`}
+              href={`https://wa.me/491622123831`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 p-4 rounded-xl border border-green-500/30 bg-green-500/10 text-green-400 hover:bg-green-500/20 transition-colors text-sm font-medium"

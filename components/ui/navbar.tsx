@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { useLocale, useTranslations } from "next-intl"
 import { Menu, X, Globe } from "lucide-react"
@@ -43,8 +44,8 @@ export function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href={`/${locale}`} className="text-white font-bold text-xl tracking-tight">
-          Web<span className="text-violet-400">Studio</span>
+        <Link href={`/${locale}`} className="flex items-center">
+          <Image src="/logo.svg" alt="Bezati" width={200} height={50} priority />
         </Link>
 
         {/* Desktop nav */}

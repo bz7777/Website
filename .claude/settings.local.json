@@ -7,7 +7,12 @@
       "Bash(npx tsc:*)",
       "Bash(npm run build:*)",
       "Bash(\"/Users/Eni/Documents/new project/app/layout.tsx\":*)",
-      "Bash(\"/Users/Eni/Documents/new project/next.config.ts\":*)"
+      "Bash(\"/Users/Eni/Documents/new project/next.config.ts\":*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(ls:*)",
+      "Bash(node:*)"
     ]
   }
 }

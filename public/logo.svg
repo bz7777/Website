@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="88" viewBox="0 0 400 88">
+  <defs>
+    <linearGradient id="wR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3366"/>
+      <stop offset="60%" stop-color="#cc44ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="wG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffaa"/>
+      <stop offset="60%" stop-color="#44aaff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="wB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0066ff"/>
+      <stop offset="60%" stop-color="#aa44ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- EB Monogram i bashkuar: Ǝ + B pa hapesire, te shkrira ne nje -->
+  <!-- Mirrored E: djathtas te x=36 -->
+  <g transform="translate(42, 0) scale(-1, 1)">
+    <text x="6" y="59" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="900"
+          fill="white" style="letter-spacing:0">E</text>
+  </g>
+  <!-- B fillon direkt ku mbaron E (x=36 = overlap 0px, fused) -->
+  <text x="36" y="59" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="900"
+        fill="white">B</text>
+
+  <!-- Ndarësi vertikal -->
+  <line x1="92" y1="8" x2="92" y2="76" stroke="#ffffff22" stroke-width="1"/>
+
+  <!-- Wordmark BEZATI -->
+  <text x="106" y="54" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700"
+        letter-spacing="6" fill="white">BEZATI</text>
+
+  <!-- Tre vija RGB qe gershetohen dhe bashkohen ne te bardhe -->
+  <path d="M106,65 C128,74 150,60 174,70 C198,79 228,63 260,68"
+        stroke="url(#wR)" stroke-width="1.6" fill="none" filter="url(#glow)"/>
+  <path d="M106,70 C126,61 148,76 172,65 C196,55 228,66 260,68"
+        stroke="url(#wG)" stroke-width="1.6" fill="none" filter="url(#glow)"/>
+  <path d="M106,75 C124,66 144,72 166,61 C190,50 228,65 260,68"
+        stroke="url(#wB)" stroke-width="1.6" fill="none" filter="url(#glow)"/>
+</svg>
